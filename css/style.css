@@ -28,6 +28,33 @@
     grid-template-columns: repeat(7, 1fr);
 }
 
+.header .header-row-strong-number{
+	color:#d34836;
+}
+
+.header .header-entete .header-align .header-row-col-1 .couleur{
+	padding:8% 2%  7%  25% ;
+	font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+	width:100%;
+	border-radius:0.5em;
+	border:none;
+	margin-left:-30%;
+	margin-top:7%;
+}
+
+.header .header-entete .header-align .header-row-col-7 .couleur{
+	padding:8% 2%  7%  25% ;
+	font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+	width:100%;
+	border-radius:0.5em;
+	border:none;
+	margin-top:7%;
+}
+
 .header-image{
 	grid-column-start: 1; 
 	grid-column-end: 4;
@@ -64,12 +91,10 @@
 .header .header-row-menu .nav-header .ul-headerleft{
 	grid-column-start: 1; 
 	grid-column-end: 3;	
-	list-style-type: none;
 }
 .header .header-row-menu .nav-header .ul-headerrigth{
 	grid-column-start: 3; 
 	grid-column-end: 4;
-	list-style-type: none;
 }
 
 .header .header-row-texte{
@@ -82,7 +107,9 @@
 .header .header-row-texte{
 	grid-column-start: 2; 
 	grid-column-end: 4;
-	margin-top:-6%
+	margin-top:-6%;
+	font-size: 1.0em;
+	color: white;
 }
 /*mise en forme de la deuxieme section*/
 
@@ -106,6 +133,10 @@
 	margin-left:0%;
 }
 
+.sectiondeux .sectiondeux-p-titre .sectiondeux-p-titre-premiertitre{
+	font-size: 1.3em;
+}
+
 .sectiondeux-premierarticle{
 	grid-column-start: 2; 
 	grid-column-end: 3;
@@ -121,6 +152,7 @@
 }
 .sectiondeux-premierarticle .sectiondeux-premierarticle-div .sectiondeux-premierarticle-div-paritlq{
 	text-align:justify;	
+	font-style:italic;
 }
 .sectiondeux-premierarticle .sectiondeux-premierarticle-div .sectiondeux-premierarticle-div-par{
 	text-align:justify;	
@@ -147,7 +179,7 @@
 	width: 10%;
 	background-color: rgb( 130, 0, 0 );
 	height: 1%;
-	position: relative;
+	
 }
 .sectiontrois .sectiontrois-div-bloctotal .sectiontrois-div-bien{
 	width: 100%;
@@ -158,7 +190,6 @@
 	grid-column-end: 3;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	
 }
 .sectiontrois .sectiontrois-div-bloctotal .sectiontrois-div-bien{
 	z-index:1;
