@@ -121,9 +121,10 @@
 	grid-column-start: 3; 
 	grid-column-end: 4;
 	list-style-type:none;
-	text-align:left;
+	text-align:right;
 	margin-top:4%;
 	padding:0;
+	margin-left:15%;
 }
 #menu1 .menuprincipale {
 	float: right;
